@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(179, 180, 116);
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: brown;
+  font-family: "Courier New", Courier, monospace;
+}
+
+table {
+  width: 45%;
+  margin: 0 auto;
+  text-align: center;
+  border: 12px solid rgb(138, 75, 2);
+  background-color: rgb(121, 113, 240);
+}
+
+tr:hover {
+  background-color: #a3ece0;
+}
+p {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: rgb(8, 8, 99);
+  text-align: center;
+}
+ul {
+  display: inline-block;
+  list-style-type: circle;
+  text-align: left;
+}
+
+ol {
+  display: inline-block;
+  list-style-type: auto;
+  text-align: left;
+}
+.bigRed {
+  font-size: 24px;
+  color: red;
+}
+
+a:hover {
+  color: hotpink;
+  font-weight: bold;
+}
+tr {
+  color: rgb(238, 4, 246);
+  width: 25%;
+  height: 20px;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+td {
+  border: 3px solid rgb(240, 158, 66);
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+th {
+  color: rgb(250, 7, 7);
+  width: 25%;
+  height: 40px;
+  font-size: 40px;
+  font-family: "roboto", sans-serif;
+}
+
+.btn:hover {
+  background-color: #d309ea;
+  transform: scale(1.03);
+}
